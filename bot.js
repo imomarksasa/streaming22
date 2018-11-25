@@ -34,6 +34,12 @@ client.on('guildMemberAdd', member => {
         .setColor('RANDOM')
         .setThumbnail(memberavatar)
         .addField('📢 | نورت السيرفر يا قلبي' , `Welcome to the server, ${member}`)
+       .setFooter("**OMG Community**")
+        .setTimestamp()
+   
+      channel.sendEmbed(embed);
+    });
+
 
 
 // THIS  MUST  BE  THIS  WAY
