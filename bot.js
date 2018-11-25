@@ -22,7 +22,8 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'سلام عليكم') {
-    	message.reply('وعليكم السلام'
+    	message.reply('وعليكم السلام');
+  	}
 });
 
 
