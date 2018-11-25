@@ -27,14 +27,14 @@ client.on('message', message => {
 });
 
 client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', 'general');
+    let channel = member.guild.channels.find('name', 'public-chat ');
     let memberavatar = member.user.avatarURL
       if (!channel) return;
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
         .setThumbnail(memberavatar)
-        .addField('📢 | نورت السيرفر يا قلبي' , `Welcome to the server, ${member}`)
-       .setFooter("**OMG Community**")
+        .addField(' #OMG_Staff | نورت السيرفر يا قلبي' , `Welcome to the server, ${member}`)
+       .setFooter("OMG Community")
         .setTimestamp()
    
       channel.sendEmbed(embed);
