@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 client.on('ready', () => {
-    client.user.setGame(`test`,"http://twitch.tv/y04zgamer")
+    client.user.setGame(`ياخايننء الءك يوم تجي فيه وتندم~x`,"http://twitch.tv/y04zgamer")
     client.user.setStatus("dnd")
   console.log(`Logged in as ${client.user.tag}!`);
 });
