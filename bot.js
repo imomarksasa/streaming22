@@ -26,6 +26,15 @@ client.on('message', message => {
   	}
 });
 
+client.on('guildMemberAdd', member => {
+    let channel = member.guild.channels.find('name', 'general');
+    let memberavatar = member.user.avatarURL
+      if (!channel) return;
+    let embed = new Discord.RichEmbed()
+        .setColor('RANDOM')
+        .setThumbnail(memberavatar)
+        .addField('📢 | نورت السيرفر يا قلبي' , `Welcome to the server, ${member}`)
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
