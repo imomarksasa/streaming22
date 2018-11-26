@@ -33,10 +33,8 @@ client.on('guildMemberAdd', member => {
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
         .setThumbnail(memberavatar)
-        .addField('🎽 | name :  ',`${member}`)
-        .addField('📢 | نورت السيرفر يا قلبي' , `Welcome to the server, ${member}`)
-        .setFooter("OMG Community")
-        .setTimestamp()
+        .addField(' نورت السيرفر يا قلبي' , `Welcome to the server, ${member}`)
+      
    
       channel.sendEmbed(embed);
     });
