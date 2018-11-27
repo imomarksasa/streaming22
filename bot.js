@@ -9,25 +9,10 @@ client.on('ready', () => {
 
 
 
-client.on("ready", () => {
-console.log(' by alaseri');
-client.user.setPresence({
-  status: 'dnd',
-  game: { 
-     type: 0,
-     name: 'Surprise Mother Fucker :smiley:',
-     details: `Rumble Is Here`,
-     url: 'http://twitch.tv/M7md_Salih',
-     state: `إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ`,
-    application_id: '281376075802476544',
-     assets: {
-        small_image: `366835431037337600`,
-        small_text: 'Take This !',
-        large_image: `370451271133429760`,
-        large_text: `Rumble Is Here` }
-
-  }
-    });
+client.on('ready', () => {
+    client.user.setGame(`Bo,HsTRai`,"https://twitch.tv/sliman0ali")
+    client.user.setStatus("dnd")
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
 
