@@ -17,7 +17,7 @@ client.user.setPresence({
   game: { 
      type: 0,
      name: 'Surprise Mother Fucker :smiley: ',
-     details: hi
+     details: I'm : Admin - Developer and Programmer,
      url: 'http://twitch.tv/Streammingg',
      state: إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ,
     application_id: '281376075802476544',
@@ -30,6 +30,7 @@ client.user.setPresence({
   }
     });
 });
+
 
 
 client.on('message', message => {
