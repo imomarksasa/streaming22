@@ -17,7 +17,7 @@ client.user.setPresence({
   game: { 
      type: 0,
      name: 'Surprise Mother Fucker :smiley: ',
-     details: I'm : KBOOSH - Developer and Programmer,
+     details: 'Iam : KBOOSH - Developer and Programmer',
      url: 'http://twitch.tv/Streammingg',
      state: إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ,
     application_id: '281376075802476544',
