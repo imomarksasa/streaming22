@@ -6,30 +6,36 @@ client.on('ready', () => {
 });
 
 
-
-
+const Discord = require("discord.js");
+const client = new Discord.Client();
 
 
 
 client.on("ready", () => {
+console.log(' by alaseri');
 client.user.setPresence({
   status: 'dnd',
   game: { 
      type: 0,
-     name: 'Surprise Mother Fucker :smiley: ',
-     details: 'Iam : KBOOSH - Developer and Programmer',
-     url: 'http://twitch.tv/Streammingg',
-     state: 'إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ',
-    application_id: '281376075802476544',
+     name: 'هاي يوتيوووب',
+     details: `هاي يوتيوب`,
+     url: 'http://twitch.tv/M7md_Salih',
+     state: `إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ`,
+    application_id: '377479790195769345',
      assets: {
-        small_image: 366835431037337600,
-        small_text: ' Take This ! ' ,
-        large_image: 370451271133429760,
-        large_text: 'ҜṦẰ FOREVER ♥' }
+        small_image: `377480550207717376`,
+        small_text: 'هاي يوتيوب',
+        large_image: `377480353259978752`,
+        large_text: `هاي يوتيوب` }
 
   }
     });
 });
+
+
+
+
+
 
 
 client.on('message', message => {
