@@ -19,7 +19,7 @@ client.user.setPresence({
      name: 'Surprise Mother Fucker :smiley: ',
      details: 'Iam : KBOOSH - Developer and Programmer',
      url: 'http://twitch.tv/Streammingg',
-     state: إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ,
+     state: 'إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ',
     application_id: '281376075802476544',
      assets: {
         small_image: 366835431037337600,
