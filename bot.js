@@ -7,8 +7,7 @@ client.on('ready', () => {
 
 
 
-const Discord = require("dicord.js");
-const client = new Discord.Client();
+
 
 
 
