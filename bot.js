@@ -15,16 +15,16 @@ client.user.setPresence({
   status: 'dnd',
   game: { 
      type: 0,
-     name: 'هاي يوتيوووب',
-     details: `هاي يوتيوب`,
+     name: 'Surprise Mother Fucker :smiley:',
+     details: `Rumble Is Here`,
      url: 'http://twitch.tv/M7md_Salih',
      state: `إنْ لَمْ تَجِد لكْ حآقدْ إعلمْ أنْك إنسآن فآشِلْ`,
-    application_id: '377479790195769345',
+    application_id: '281376075802476544',
      assets: {
-        small_image: `377480550207717376`,
-        small_text: 'هاي يوتيوب',
-        large_image: `377480353259978752`,
-        large_text: `هاي يوتيوب` }
+        small_image: `366835431037337600`,
+        small_text: 'Take This !',
+        large_image: `370451271133429760`,
+        large_text: `Rumble Is Here` }
 
   }
     });
