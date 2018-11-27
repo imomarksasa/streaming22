@@ -25,7 +25,7 @@ client.user.setPresence({
         small_image: 366835431037337600,
         small_text: ' Take This ! ' ,
         large_image: 370451271133429760,
-        large_text: ҜṦẰ FOREVER ♥ }
+        large_text: 'ҜṦẰ FOREVER ♥' }
 
   }
     });
